@@ -43,8 +43,8 @@ def hit?(total)
   if user_input = "s"
     total
   elsif user_input = "h"
-    new_card = deal_card
-    total += new_card
+    deal_card
+    
   end
 
 end
