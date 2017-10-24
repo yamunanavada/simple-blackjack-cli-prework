@@ -32,7 +32,7 @@ end
 def initial_round
   # code #initial_round here
   display_card_total(sum = deal_card + deal_card)
-  sum 
+  sum
 
 end
 
@@ -45,7 +45,7 @@ def hit?(total)
   elsif user_input = "h"
     total += deal_card
   end
-  
+
 end
 
 def invalid_command
