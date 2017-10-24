@@ -42,9 +42,9 @@ def hit?(total)
   prompt_user
   user_input = get_user_input
   total
-  if user_input = 'h'
+  if user_input == 'h'
     total = total + deal_card
-  elsif user_input = 's'
+  elsif user_input == 's'
     total
   end
 
