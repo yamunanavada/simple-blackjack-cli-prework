@@ -1,4 +1,4 @@
-require pry
+
 def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
@@ -45,7 +45,8 @@ def hit?(total)
     total
   else
     total = total + deal_card
-    
+  
+
   end
 
 end
