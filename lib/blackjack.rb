@@ -21,7 +21,7 @@ end
 def get_user_input
   # code #get_user_input here
   answer = gets.chomp
-  
+
 end
 
 def end_game(total)
@@ -31,6 +31,11 @@ end
 
 def initial_round
   # code #initial_round here
+  sum = 0
+  2.times do
+    sum += deal_card
+  end
+  display_card_total(sum)
 end
 
 def hit?
