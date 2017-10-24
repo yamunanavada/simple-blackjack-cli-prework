@@ -63,4 +63,9 @@ end
 
 def runner
   # code runner here
+  welcome
+  total = deal_card + deal_card
+  until total > 21
+    total = hit?(total)
+  end
 end
