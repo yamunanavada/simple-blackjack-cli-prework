@@ -36,8 +36,16 @@ def initial_round
 
 end
 
-def hit?
+def hit?(total)
   # code hit? here
+  prompt_user
+  user_input = get_user_input
+  if user_input = "s"
+    total
+  elsif user_input = "h"
+    total += deal_card
+  end
+  
 end
 
 def invalid_command
